@@ -13,8 +13,12 @@ export function Header() {
           <a href="#virtual-garden" className="text-gray-700 hover:text-green-600">Virtual Garden</a>
           <a href="#plant-match" className="text-gray-700 hover:text-green-600">Plant Match</a>
           <a href="#shop" className="text-gray-700 hover:text-green-600">Shop</a>
-          <button class="my-button" data-tf-popup="<form-id>">click here</button>
+        <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
+  data-tf-popup="<form-id>"  >
+          <div data-tf-live="01JEP72GQYHJE9CC4YD3XFNPWG"></div><script src="//embed.typeform.com/next/embed.js"></script>
 <script src="//embed.typeform.com/next/embed.js"></script>
+  Join Waitlist
+</button>
         </div>
       </nav>
     </header>
