@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col mb-1 md:mb-0"> {/* Reduced bottom margin */}
             <h5 className="font-bold text-md">Contact Information</h5> {/* Reduced font size */}
-            <p className="text-gray-400 text-sm">Email: contact@yourcompany.com</p> {/* Reduced font size */}
-            <p className="text-gray-400 text-sm">Phone: (123) 456-7890</p> {/* Reduced font size */}
-            <p className="text-gray-400 text-sm">Address: 123 Your Street, City, Country</p> {/* Reduced font size */}
+            <p className="text-gray-400 text-sm">Email: Leafgrid.in@gmail.com</p> {/* Reduced font size */}
+            <p className="text-gray-400 text-sm">Phone: +91 8367648316</p> {/* Reduced font size */}
+            <p className="text-gray-400 text-sm">Address: EdVenture Park HQ, Masab Tank </p> {/* Reduced font size */}
           </div>
           <div className="text-center mb-1 md:mb-0"> {/* Reduced bottom margin */}
             <p className="text-2xl font-semibold">Incubated at</p> {/* Reduced font size */}
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="text-center mt-2"> {/* Reduced top margin */}
-          <p className="text-xs">&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p> {/* Reduced font size */}
+          <p className="text-xs">&copy; {new Date().getFullYear()} LeafGrid. All rights reserved.</p> {/* Reduced font size */}
         </div>
       </div>
     </footer>
