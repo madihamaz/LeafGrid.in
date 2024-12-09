@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="text-center mb-1 md:mb-0"> {/* Reduced bottom margin */}
             <p className="text-2xl font-semibold">Incubated at</p> {/* Reduced font size */}
             <img 
-              src="src/components/5F1D2E8C-6741-4F1B-ACDF-2C3E78F9F2C4.png"
+              src="src/components/hey.png"
               alt="Company Logo" 
               style={{ width: '200px', height: 'auto' }} // Reduced logo size
               className="mt-1 mb-1" // Adjusted margins
