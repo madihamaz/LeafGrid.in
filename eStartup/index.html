@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LeafGrid-home gardening</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!--link href="assets/img/favicon.png" rel="icon"> -->
+  <!--<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: eStartup
+  * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+
+.card-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.697), rgba(0, 0, 0, 0.76)), url('./assets/img/hero-img.png');
+  background-size: cover;
+}
+
+
+    .card {
+        border: 1px solid #71c55d;
+        /* Border color */
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .card-title {
+        margin-bottom: 1rem;
+        color: #71c55d;
+        /* Space between title and list */
+        font-weight: bold;
+        /* Bold title */
+    }
+
+    .list-unstyled li {
+        position: relative;
+        padding-left: 1.5em;
+        /* Space for the pointer */
+        text-align: center;
+        /* Align list text to the left */
+        color: #fff;
+      }
+
+    .list-unstyled li::before {
+        /* content: "•"; */
+        position: absolute;
+        /* left: 0; */
+        color: #71c55d;
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 0.5;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+</style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename"><span>Leaf</span>Grid.in</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+          <!-- <li><a href="#services">Services</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2>Kya chahiye? Fresh herbs aur veggies? LeafGrid le aao ghar!</h2>
+            <p>Transform your home with LeafGrid, the easy way to enjoy indoor gardening. Our spiral tower hydroponic systems fit small spaces, letting you grow fresh vegetables and herbs effortlessly. Perfect for beginners and hobbyists, LeafGrid offers a clean, soil-free, and sustainable gardening experience. Bring nature closer with LeafGrid!</p>
+            <div class="d-flex">
+              <div data-tf-live="01JD9MVCYFZW7SC1Y12DH20NR1"></div><script src="//embed.typeform.com/next/embed.js"></script>
+              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-record2"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Germination</a></h4>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-suit-club"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Vegitative</a></h4>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-flower2"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Flowering</a></h4>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-command"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Maturity</a></h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> -->
+
+    </section><!-- /Hero Section -->
+
+
+
+    
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>About Us</h3>
+            <p class="fst-italic" id="aboutText">
+              At LeafGrid, we’re passionate about making home gardening accessible to everyone, regardless of space, experience, or lifestyle. We understand that in today’s fast-paced world, many people are looking for ways to grow their own food without the hassle of traditional gardening. That’s why we’ve developed innovative hydroponic systems that allow you to cultivate fresh, healthy, and pesticide-free herbs and vegetables right in your own home.<br><br>
+              Our systems are designed to be compact and efficient, allowing you to grow your favorite plants in even the smallest spaces. Whether you live in an apartment, have a small balcony, or simply want to add a touch of greenery to your home, LeafGrid provides a simple and convenient solution. You don’t need a large garden or a green thumb to enjoy the benefits of homegrown produce. Our hydroponic systems make gardening easy and hassle-free—no soil, no mess, just clean, nutritious food.<br><br>
+              At LeafGrid, we believe that everyone should have access to healthy, fresh food, and we are committed to making it as simple as possible for you to grow your own. Our products are designed with sustainability in mind, ensuring that you can contribute to a greener planet while enjoying the rewards of your own indoor garden. We’re here to help you take the first step towards a healthier, more sustainable lifestyle, all from the comfort of your home.<br><br>
+              Join us at LeafGrid today and experience the joy of hydroponic gardening—an innovative, space-saving, and healthy way to bring fresh produce into your life!
+            </p>
+            <a href="javascript:void(0);" id="readMoreBtn" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div> 
+    
+         <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/about-company-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12 about-images" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-4">
+                      <div class="col-lg-12">
+                        <img src="assets/img/about-company-.jpg" class="img-fluid" alt="">
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      // Get elements
+      const aboutText = document.getElementById('aboutText');
+      const readMoreBtn = document.getElementById('readMoreBtn');
+    
+      // Initially limit the text to a portion
+      const initialText = aboutText.innerHTML.split('<br><br>').slice(0, 2).join('<br><br>') + '...'; // Limit to first 3 paragraphs
+      aboutText.innerHTML = initialText;
+    
+      // Toggle full text on "Read More" click
+      readMoreBtn.addEventListener('click', function() {
+        if (aboutText.innerHTML === initialText) {
+          aboutText.innerHTML = `
+            At LeafGrid, we’re passionate about making home gardening accessible to everyone, regardless of space, experience, or lifestyle. We understand that in today’s fast-paced world, many people are looking for ways to grow their own food without the hassle of traditional gardening. That’s why we’ve developed innovative hydroponic systems that allow you to cultivate fresh, healthy, and pesticide-free herbs and vegetables right in your own home.<br><br>
+            Our systems are designed to be compact and efficient, allowing you to grow your favorite plants in even the smallest spaces. Whether you live in an apartment, have a small balcony, or simply want to add a touch of greenery to your home, LeafGrid provides a simple and convenient solution. You don’t need a large garden or a green thumb to enjoy the benefits of homegrown produce. Our hydroponic systems make gardening easy and hassle-free—no soil, no mess, just clean, nutritious food.<br><br>
+            At LeafGrid, we believe that everyone should have access to healthy, fresh food, and we are committed to making it as simple as possible for you to grow your own. Our products are designed with sustainability in mind, ensuring that you can contribute to a greener planet while enjoying the rewards of your own indoor garden. We’re here to help you take the first step towards a healthier, more sustainable lifestyle, all from the comfort of your home.<br><br>
+            Join us at LeafGrid today and experience the joy of hydroponic gardening—an innovative, space-saving, and healthy way to bring fresh produce into your life!
+          `;
+          readMoreBtn.innerHTML = '<span>Read Less</span><i class="bi bi-arrow-up"></i>';
+        } else {
+          aboutText.innerHTML = initialText;
+          readMoreBtn.innerHTML = '<span>Read More</span><i class="bi bi-arrow-right"></i>';
+        }
+      });
+    </script>
+    
+
+    <!-- About Section 
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p class="who-we-are"></p>
+            <h3>About Us</h3>
+            <p class="fst-italic">
+              At LeafGrid, we’re passionate about making home gardening accessible to everyone, regardless of space, experience, or lifestyle. We understand that in today’s fast-paced world, many people are looking for ways to grow their own food without the hassle of traditional gardening. That’s why we’ve developed innovative hydroponic systems that allow you to cultivate fresh, healthy, and pesticide-free herbs and vegetables right in your own home.<br>
+<br>
+              Our systems are designed to be compact and efficient, allowing you to grow your favorite plants in even the smallest spaces. Whether you live in an apartment, have a small balcony, or simply want to add a touch of greenery to your home, LeafGrid provides a simple and convenient solution. You don’t need a large garden or a green thumb to enjoy the benefits of homegrown produce. Our hydroponic systems make gardening easy and hassle-free—no soil, no mess, just clean, nutritious food.<br>
+              
+              At LeafGrid, we believe that everyone should have access to healthy, fresh food, and we are committed to making it as simple as possible for you to grow your own. Our products are designed with sustainability in mind, ensuring that you can contribute to a greener planet while enjoying the rewards of your own indoor garden. We’re here to help you take the first step towards a healthier, more sustainable lifestyle, all from the comfort of your home.<br>
+              
+              Join us at LeafGrid today and experience the joy of hydroponic gardening—an innovative, space-saving, and healthy way to bring fresh produce into your life!
+
+
+            </p>
+           <!--- <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Easy-To-Use
+              </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Space-Saving</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Sustainable</span></li>
+            </ul> 
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div> 
+
+          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/about-company-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- /About Section 
+
+    <div class="container my-5 py-5 wow ">
+      <div class="section-title">
+          <h5 class="card-title text-uppercase" style="letter-spacing: 1px;">Why Choose LeafGrid?</h5>
+          <h1 class="display-5 mb-0">What all can you grow?</h1>
+      </div>
+      <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h4 class="card-title">mint</h4>
+                      <ul class="list-unstyled">
+                          <li>Instant online store creation</li>
+                          <li>Bulk product uploads</li>
+                          <li>Custom domain linking</li>
+                          <li>Seamless payment gateway integration</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h4 class="card-title">corriander</h4>
+                      <ul class="list-unstyled">
+                          <li>Adaptive app for any business type</li>
+                          <li>Native app for mobile and tablet</li>
+                          <li>99.5% uptime guarantee</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h4 class="card-title">Basil</h4>
+                      <ul class="list-unstyled">
+                          <li>Unlimited users and transactions</li>
+                          <li>Worldwide access</li>
+                          <li>Integration with third-party tools</li>
+                          <li>Developer-friendly API for custom app development</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h4 class="card-title">Cherry Tomato</h4>
+                      <ul class="list-unstyled">
+                          <li>Custom App Development</li>
+                          <li>Supports Windows, Android, and iOS</li>
+                          <li>Create E-commerce and Non-E-commerce Apps</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- <section id="features" class="features section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <div><span>Check Our</span> <span class="description-title">Features</span></div>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-5 justify-content-between">
+
+          <div class="col-xl-5" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/assets/img//template/eStartup/features.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-6 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Year-Round Gardening</h3>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Space-saving</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Reduced water consumption</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Precise nutrient control</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Pest and disease control</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Controlled environment</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>-->
+    <!-- /Features Section -->
+
+    <!-- Pricing Section -->
+    <!-- <section id="pricing" class="pricing section">
+
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <div><span>Check Our</span> <span class="description-title">Pricing</span></div>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-tem">
+              <h3 style="color: #20c997;">Free Plan</h3>
+              <div class="price"><sup>$</sup>0<span> / mo</span></div>
+              <div class="icon">
+                <i class="bi bi-box" style="color: #20c997;"></i>
+              </div>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-tem">
+              <span class="featured">Featured</span>
+              <h3 style="color: #0dcaf0;">Fully Manual</h3>
+              <div class="price"><sup>$</sup>19<span> / mo</span></div>
+              <div class="icon">
+                <i class="bi bi-send" style="color: #0dcaf0;"></i>
+              </div>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-tem">
+              <h3 style="color: #fd7e14;">Partially Automated</h3>
+              <div class="price"><sup>$</sup>29<span> / mo</span></div>
+              <div class="icon">
+                <i class="bi bi-airplane" style="color: #fd7e14;"></i>
+              </div>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="pricing-tem">
+              <h3 style="color: #0d6efd;">Fully Automated</h3>
+              <div class="price"><sup>$</sup>49<span> / mo</span></div>
+              <div class="icon">
+                <i class="bi bi-rocket" style="color: #0d6efd;"></i>
+              </div>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section> -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Frequently Asked</span><strong>Questions</strong></h3>
+              <p>
+                At LeafGrid, we know starting with home gardening and hydroponics can raise questions. Our compact spiral systems make indoor gardening easy and enjoyable. From how it works to what you can grow, we’re here to help you bring fresh produce and greenery into your home effortlessly!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span></span>What is hydroponics?</h3> 
+                <div class="faq-content">
+                  <p>Hydroponics is a method of growing plants in a nutrient solution, rather than soil. This technique offers several advantages, such as reduced water consumption, precise nutrient control, and the ability to grow plants in confined spaces.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>What types of plants can be grown in a hydroponic system?</span></h3>
+                <div class="faq-content">
+                  <p>You can grow a wide variety of plants, including herbs, vegetables, and even some flowering plants. Popular choices include lettuce, basil, tomatoes, and strawberries.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>How much maintenance is required for a hydroponic system?</span></h3>
+                <div class="faq-content">
+                  <p>Maintenance typically involves checking the nutrient solution levels, cleaning the system, and monitoring plant health. Hydroponic systems reduce the amount of hands-on care required.</p>
+                  </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>How often does the nutrient solution need to be replaced or replenished?</span></h3>
+                <div class="faq-content">
+                  <p>the nutrient solution should be checked and replenished every 1-2 weeks. However, it's important to monitor the solution regularly for signs of depletion or contamination, such as cloudiness or a strong odor.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>Can anyone use hydroponics?</span></h3>
+                <div class="faq-content">
+                  <p>Absolutely! Our hydroponic system is designed to be user-friendly and hassle-free. With its simple setup and minimal maintenance, it's perfect for beginners and experienced gardeners alike.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section 
+    <section id="contact" class="contact section">
+
+      <!-- Section Title 
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span>Need Help?</span> <span class="description-title">Contact Us</span></div>
+      </div><!-- End Section Title 
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p> NMDC, Masab Tank EdVenture Park HQ</p>
+              </div>
+            </div><!-- End Info Item 
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+91 8367648316</p>
+              </div>
+            </div><!-- End Info Item 
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item 
+
+          </div>
+
+          <!-- <div class="col-lg-8">
+            <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+        
+                    <div class="col-md-6">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+        
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+        
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
+                    </div>
+        
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+        
+                        <button type="submit">Send Message</button> 
+                        
+                        <div class="col-lg-8">
+                          <form id="contactform" action="https://script.google.com/macros/s/AKfycbzvJcd9rjyYBEIJvKOcTzcDRtMrGJEXCUyFHcf48dDnLEvc16KqVpdseLmXU_jpSzIh/exec" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+                        
+                              <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                              </div>
+                        
+                              <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                              </div>
+                        
+                              <div class="col-md-12">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                              </div>
+                        
+                              <div class="col-md-12">
+                                <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                              </div>
+                        
+                              <div class="col-md-12 text-center">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <button type="submit">Send Message</button>
+                              </div>
+                        
+                            </div>
+                          </form>
+                        </div>
+                        
+                    </div>
+               <!--- </div>
+            </form>
+        </div>
+        
+
+              </div>
+            </form>
+          </div> End Contact Form --> 
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+ 
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">LeafGrid</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Edventure park HQ,</p>
+            <p>Masab Tank</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 8367648316</span></p>
+            <p><strong>Email:</strong> <span>ceo@leafgrid.in</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/leafgrid.in/"><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 col-md-3 footer-incubation d-flex flex-column align-items-end">
+          <p><span class="incubated-text">Incubated at </span>
+             <a href="https://edventurepark.com" class="edventure-link">
+                 <span class="edventure-text"></span>
+             </a>
+          </p>
+          <img src="assets/img/evp-logo light.png" alt="Edventure Park Logo" class="edventure-logo">
+        </div>
+        
+
+        <!--<div class="col-lg-6 col-md-3 footer-incubation d-flex flex-column align-items-end">
+          <p><span class="incubated-text">Incubated at</span><br>
+             <a href="https://edventurepark.com" class="edventure-link">
+                 <span class="edventure-text">Edventure Park</span>
+             </a>
+          </p>
+          <img src="assets/img/evp-logo light.png" alt="Edventure Park Logo" class="edventure-logo">
+      </div> -->
+      
+        <!--<div class="col-lg-6 col-md-3 footer-incubation d-flex flex-column align-items-end">
+          <p><span class="incubated-text">Incubated at</span><br><a href="https://edventurepark.com" class="edventure-link"><span class="edventure-text">Edventure Park</span></a></p>
+          <img src="assets/img/evp-logo light.png" alt="Edventure Park Logo" class="edventure-logo">
+      </div> --> <!---
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>-->
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">LeafGrid</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://edventurepark.com/">Founder</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  
+  
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- Add Firebase SDK -->
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="input.js"></script>
+
+  <!-- In your index.html -->
+<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-database-compat.js"></script>
+
+<!-- Your Firebase config and initialization -->
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyAunN_SI7ya97umam5SB5FpKymcL0t4OgQ",
+  authDomain: "leafgrid.firebaseapp.com",
+  databaseURL: "https://leafgrid-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "leafgrid",
+  storageBucket: "leafgrid.firebasestorage.app",
+  messagingSenderId: "415974085683",
+  appId: "1:415974085683:web:da80d50021906a238eff46",
+  measurementId: "G-DW0Z1QE87X"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+<!-- Your input.js script -->
+<script src="input.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
